@@ -10,5 +10,11 @@ public class BankController {
 		
 		return "SBI";
 	}
+	
+	@GetMapping("/bank1")
+	public String getBankDetails1(String type) {
+		
+		return "SBI";
+	}
 
 }
